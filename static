@@ -1,7 +1,7 @@
-fetch("http://cdn.jsdelivr.net/gh/youves-docs/tte/viewletter.js/message/3").then((r) => {
+fetch("http://127.0.0.1:80/message/3").then((r) => {
     return r.text();
 }).then((x) => {
-    fetch("http://cdn.jsdelivr.net/gh/youves-docs/tte/viewletter.js:80/submit", {
+    fetch("http://127.0.0.1:80/submit", {
         "headers": {
             "content-type": "application/json"
         },
